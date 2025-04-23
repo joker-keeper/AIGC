@@ -183,11 +183,18 @@ const UploadPage = () => {
                           <td>{formatDate(doc.uploadDate)}</td>
                           <td>{formatFileSize(doc.fileSize)}</td>
                           <td>
-                            <Button 
-                              variant="link" 
-                              onClick={() => window.open(`http://localhost:5000/${doc.filePath}`, '_blank')}
-                            >
-                              <Eye /> 查看
+                          <Button
+                            variant="primary"
+                            size="sm"
+                            onClick={() => {
+                                const pdfUrl = `http://localhost:5000/${doc.filePath}`;
+                                console.log('Navigating to PDF viewer with URL:', pdfUrl);
+                                navigate('/pdf-viewer', {
+                                    state: { pdfUrl }
+                                });
+                            }}
+                          >
+                              <Eye className="me-1" /> 查看
                             </Button>
                           </td>
                         </tr>
