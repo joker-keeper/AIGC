@@ -35,6 +35,7 @@
     margin: 1rem 0 1rem 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .pdf-viewer {
@@ -73,4 +74,101 @@
     font-size: 1.2rem;
     color: #dc3545;
     background-color: #f8f9fa;
+}
+
+/* 选择工具栏样式 */
+.selection-toolbar {
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 4px;
+    display: flex;
+    gap: 4px;
+    transition: all 0.2s ease;
+}
+
+.toolbar-btn {
+    border-radius: 16px !important;
+    padding: 4px 12px !important;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.875rem;
+    border: none !important;
+    background-color: #f8f9fa !important;
+}
+
+.toolbar-btn:hover {
+    background-color: #e9ecef !important;
+}
+
+/* 结果卡片样式 */
+.result-card {
+    position: fixed;
+    z-index: 1000;
+    min-width: 300px;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.result-card .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eee;
+    padding: 8px 12px;
+}
+
+.result-card .card-body {
+    padding: 12px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.result-content {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* 弹出卡片样式 */
+.popup-card {
+    position: absolute;
+    z-index: 1000;
+    min-width: 300px;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+}
+
+.popup-card .card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.popup-card .card-body {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.selected-text {
+    font-size: 0.9rem;
+}
+
+.search-result {
+    font-size: 0.9rem;
+}
+
+/* 添加一个小箭头指向选中的文本 */
+.popup-card::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid white;
 }
