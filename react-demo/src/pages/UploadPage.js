@@ -188,8 +188,14 @@ const UploadPage = () => {
                             size="sm"
                             onClick={() => {
                                 const pdfUrl = `http://localhost:5000/${doc.filePath}`;
-                                console.log('Navigating to PDF viewer with URL:', pdfUrl);
-                                navigate('/pdf-viewer', {
+                                console.log('Document details:', {
+                                    id: doc._id,
+                                    url: pdfUrl,
+                                    path: doc.filePath
+                                });
+                                const targetUrl = `/pdf-viewer?id=${doc._id}`;
+                                console.log('Target URL:', targetUrl);
+                                navigate(targetUrl, {
                                     state: { pdfUrl }
                                 });
                             }}

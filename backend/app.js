@@ -5,6 +5,8 @@ const path = require('path');
 // const connectDB = require('./config/db');
 const documentRoutes = require('./routes/documentRoutes');
 const folderRoutes = require('./routes/folderRoutes');
+const documentStructureRoutes = require('./routes/documentStructureRoutes');
+const figuresRouter = require('./routes/figures');
 
 // 连接数据库
 mongoose.connect('mongodb://localhost:27017/pdf-manager')
@@ -22,6 +24,14 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 // 路由
 app.use('/api/folders', folderRoutes);
 app.use('/api/documents', documentRoutes);
+app.use('/api/documents', documentStructureRoutes);
+app.use(figuresRouter);
+
+// 添加日志中间件，记录所有请求
+app.use((req, res, next) => {
+  console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+  next();
+});
 
 // 错误处理
 app.use((err, req, res, next) => {
@@ -32,4 +42,5 @@ app.use((err, req, res, next) => {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+  console.log(`静态文件路径: ${path.join(__dirname, 'uploads')}`);
 });

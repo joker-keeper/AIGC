@@ -1,0 +1,19 @@
+{
+    "documentId": "6806ff21cf912a9e4a92a3c2",
+    "figures": [
+      {
+        "figureId": "fig1",
+        "imageUrl": "http://localhost:5000/uploads/fig1.jpg",
+        "caption": "Figure 1: Illustration of uncertainties in gaze estimation using the EyeDiap dataset as an example. The upper half of the figure reflects unqualified images, where the images in right side are extremely difficult for machines and even human.",
+        "pageNumber": 2,
+        "position": { "top": 120, "left": 50 }
+      },
+      {
+        "figureId": "fig2",
+        "imageUrl": "http://localhost:5000/uploads/fig2.jpg",
+        "caption": "Figure 2: Visualization results of varying image and label confidences using samples from folds 0, 1, 3 of the EyeDiap dataset as the training set in the subsequent epoch after the warm-up phase.",
+        "pageNumber": 3,
+        "position": { "top": 300, "left": 80 }
+      }
+    ]
+  }

@@ -1,0 +1,100 @@
+[{
+    "_id": {
+      "$oid": "6806ff21cf912a9e4a92a3c2"
+    },
+    "folderId": {
+      "$oid": "6806fef2cf912a9e4a92a3bd"
+    },
+    "title": "我是大明星",
+    "author": "苏寒",
+    "uploadDate": {
+      "$date": "2025-04-22T02:29:53.843Z"
+    },
+    "filePath": "uploads\\file-1745288993730-848633435.pdf",
+    "fileSize": 10660168,
+    "description": "我是大明星",
+    "tags": [
+      "深度学习"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6806ff65cf912a9e4a92a3d9"
+    },
+    "folderId": {
+      "$oid": "6806ff4bcf912a9e4a92a3ca"
+    },
+    "title": "111",
+    "author": "111",
+    "uploadDate": {
+      "$date": "2025-04-22T02:31:01.399Z"
+    },
+    "filePath": "uploads\\file-1745289061324-638454426.pdf",
+    "fileSize": 6938572,
+    "description": "111",
+    "tags": [
+      "111"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6808565c262c713fc4fd36ae"
+    },
+    "folderId": {
+      "$oid": "6806fef2cf912a9e4a92a3bd"
+    },
+    "title": "222",
+    "author": "22",
+    "uploadDate": {
+      "$date": "2025-04-23T02:54:20.443Z"
+    },
+    "filePath": "uploads\\file-1745376860436-633905502.pdf",
+    "fileSize": 321462,
+    "description": "22",
+    "tags": [
+      "2"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68085738262c713fc4fd36be"
+    },
+    "folderId": {
+      "$oid": "6806ff4bcf912a9e4a92a3ca"
+    },
+    "title": "3",
+    "author": "3",
+    "uploadDate": {
+      "$date": "2025-04-23T02:58:00.479Z"
+    },
+    "filePath": "uploads\\file-1745377080475-812746234.pdf",
+    "fileSize": 91553,
+    "description": "3",
+    "tags": [
+      "3"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6808843c262c713fc4fd36f8"
+    },
+    "folderId": {
+      "$oid": "6806ff4bcf912a9e4a92a3ca"
+    },
+    "title": "haha",
+    "author": "aaa",
+    "uploadDate": {
+      "$date": "2025-04-23T06:10:04.747Z"
+    },
+    "filePath": "uploads\\file-1745388604742-897736501.pdf",
+    "fileSize": 169049,
+    "description": "aaa",
+    "tags": [
+      "a"
+    ],
+    "__v": 0
+  }]

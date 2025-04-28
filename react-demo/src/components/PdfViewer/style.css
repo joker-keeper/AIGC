@@ -25,6 +25,40 @@
     display: flex;
     flex: 1;
     overflow: hidden;
+    position: relative;
+}
+
+/* 左侧工具栏样式 */
+.pdf-toolbar {
+    width: 48px;
+    background-color: #fff;
+    border-right: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.toolbar-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 4px;
+    margin: 4px 0;
+    transition: all 0.2s;
+}
+
+.toolbar-button:hover {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.toolbar-button.active {
+    background-color: #e9ecef;
+    color: #007bff;
 }
 
 .pdf-viewer-container {
@@ -32,7 +66,7 @@
     height: calc(100vh - 64px);
     overflow: hidden;
     background-color: white;
-    margin: 1rem 0 1rem 1rem;
+    margin: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -44,14 +78,15 @@
 }
 
 .pdf-sidebar {
-    width: 400px;
+    width: 300px;
     height: calc(100vh - 64px);
-    margin: 1rem;
+    margin: 1rem 1rem 1rem 0;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease;
 }
 
 .pdf-sidebar-nav {
@@ -66,17 +101,71 @@
     border-top: 1px solid #dee2e6;
 }
 
-.pdf-error {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-size: 1.2rem;
-    color: #dc3545;
-    background-color: #f8f9fa;
+/* 目录树样式 */
+.bookmark-container {
+    padding: 1rem;
+    height: 100%;
+    overflow-y: auto;
 }
 
-/* 选择工具栏样式 */
+.bookmark-tree {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bookmark-tree ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.bookmark-item {
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+}
+
+.bookmark-title {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #333;
+    transition: color 0.2s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bookmark-title:hover {
+    color: #007bff;
+}
+
+.toggle-btn {
+    padding: 0 4px !important;
+    color: #666 !important;
+    margin-right: 4px;
+    min-width: 20px;
+}
+
+.toggle-btn:hover {
+    color: #333 !important;
+}
+
+.pdf-navigation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 1rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* 当前页高亮样式 */
+.bookmark-title.active {
+    color: #007bff;
+    font-weight: 500;
+}
+
+/* 选择工具栏和结果卡片样式 */
 .selection-toolbar {
     position: fixed;
     z-index: 1000;
@@ -89,22 +178,6 @@
     transition: all 0.2s ease;
 }
 
-.toolbar-btn {
-    border-radius: 16px !important;
-    padding: 4px 12px !important;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 0.875rem;
-    border: none !important;
-    background-color: #f8f9fa !important;
-}
-
-.toolbar-btn:hover {
-    background-color: #e9ecef !important;
-}
-
-/* 结果卡片样式 */
 .result-card {
     position: fixed;
     z-index: 1000;
@@ -113,7 +186,6 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     border: none;
     border-radius: 8px;
-    background-color: white;
 }
 
 .result-card .card-header {
@@ -171,4 +243,82 @@
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-bottom: 8px solid white;
+}
+
+.figure-block {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.figure-img {
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.figure-caption {
+    font-size: 14px;
+    color: #555;
+}
+
+/* 加载状态和错误样式 */
+.pdf-loading-container, .pdf-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 2rem;
+}
+
+.pdf-loading-container p {
+    color: #6c757d;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.pdf-error .alert {
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-error h5 {
+    margin-bottom: 1rem;
+}
+
+.pdf-error p {
+    margin-bottom: 0;
+}
+
+/* 位置高亮动画 */
+.position-highlight {
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+@keyframes highlight-pulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+    75% {
+        transform: scale(1.1);
+        opacity: 0.4;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
 }

@@ -1,0 +1,884 @@
+[{
+  "_id": {
+    "$oid": "6809be25fdbc473efae51c6d"
+  },
+  "documentId": {
+    "$oid": "6806ff21cf912a9e4a92a3c2"
+  },
+  "structure": [
+    {
+      "title": "第1章 我是大明星相关内容1",
+      "pageNumber": 1,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "1.1 小节内容1",
+          "pageNumber": 1,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "1.2 小节内容2",
+          "pageNumber": 1,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c6e"
+      }
+    },
+    {
+      "title": "第2章 我是大明星相关内容2",
+      "pageNumber": 3,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "2.1 小节内容1",
+          "pageNumber": 3,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "2.2 小节内容2",
+          "pageNumber": 3,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "2.3 小节内容3",
+          "pageNumber": 4,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        },
+        {
+          "title": "2.4 小节内容4",
+          "pageNumber": 4,
+          "position": {
+            "top": 350,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c6f"
+      }
+    },
+    {
+      "title": "第3章 我是大明星相关内容3",
+      "pageNumber": 5,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "3.1 小节内容1",
+          "pageNumber": 5,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.2 小节内容2",
+          "pageNumber": 5,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.3 小节内容3",
+          "pageNumber": 6,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.4 小节内容4",
+          "pageNumber": 6,
+          "position": {
+            "top": 350,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c70"
+      }
+    },
+    {
+      "title": "第4章 我是大明星相关内容4",
+      "pageNumber": 7,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "4.1 小节内容1",
+          "pageNumber": 7,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "4.2 小节内容2",
+          "pageNumber": 7,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "4.3 小节内容3",
+          "pageNumber": 8,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c71"
+      }
+    },
+    {
+      "title": "第5章 我是大明星相关内容5",
+      "pageNumber": 9,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "5.1 小节内容1",
+          "pageNumber": 9,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "5.2 小节内容2",
+          "pageNumber": 9,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "5.3 小节内容3",
+          "pageNumber": 10,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c72"
+      }
+    }
+  ],
+  "extractionMethod": "manual",
+  "lastUpdated": {
+    "$date": "2025-04-24T04:29:25.105Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6809be25fdbc473efae51c74"
+  },
+  "documentId": {
+    "$oid": "6806ff65cf912a9e4a92a3d9"
+  },
+  "structure": [
+    {
+      "title": "第1章 111相关内容1",
+      "pageNumber": 1,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "1.1 小节内容1",
+          "pageNumber": 1,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "1.2 小节内容2",
+          "pageNumber": 1,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "1.3 小节内容3",
+          "pageNumber": 2,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        },
+        {
+          "title": "1.4 小节内容4",
+          "pageNumber": 2,
+          "position": {
+            "top": 350,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c75"
+      }
+    },
+    {
+      "title": "第2章 111相关内容2",
+      "pageNumber": 3,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "2.1 小节内容1",
+          "pageNumber": 3,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "2.2 小节内容2",
+          "pageNumber": 3,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "2.3 小节内容3",
+          "pageNumber": 4,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c76"
+      }
+    },
+    {
+      "title": "第3章 111相关内容3",
+      "pageNumber": 5,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "3.1 小节内容1",
+          "pageNumber": 5,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.2 小节内容2",
+          "pageNumber": 5,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.3 小节内容3",
+          "pageNumber": 6,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.4 小节内容4",
+          "pageNumber": 6,
+          "position": {
+            "top": 350,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c77"
+      }
+    },
+    {
+      "title": "第4章 111相关内容4",
+      "pageNumber": 7,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "4.1 小节内容1",
+          "pageNumber": 7,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "4.2 小节内容2",
+          "pageNumber": 7,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "4.3 小节内容3",
+          "pageNumber": 8,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        },
+        {
+          "title": "4.4 小节内容4",
+          "pageNumber": 8,
+          "position": {
+            "top": 350,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c78"
+      }
+    }
+  ],
+  "extractionMethod": "manual",
+  "lastUpdated": {
+    "$date": "2025-04-24T04:29:25.135Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6809be25fdbc473efae51c7c"
+  },
+  "documentId": {
+    "$oid": "6808565c262c713fc4fd36ae"
+  },
+  "structure": [
+    {
+      "title": "第1章 222相关内容1",
+      "pageNumber": 1,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "1.1 小节内容1",
+          "pageNumber": 1,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "1.2 小节内容2",
+          "pageNumber": 1,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "1.3 小节内容3",
+          "pageNumber": 2,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c7d"
+      }
+    },
+    {
+      "title": "第2章 222相关内容2",
+      "pageNumber": 3,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "2.1 小节内容1",
+          "pageNumber": 3,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "2.2 小节内容2",
+          "pageNumber": 3,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "2.3 小节内容3",
+          "pageNumber": 4,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        },
+        {
+          "title": "2.4 小节内容4",
+          "pageNumber": 4,
+          "position": {
+            "top": 350,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c7e"
+      }
+    },
+    {
+      "title": "第3章 222相关内容3",
+      "pageNumber": 5,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "3.1 小节内容1",
+          "pageNumber": 5,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.2 小节内容2",
+          "pageNumber": 5,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.3 小节内容3",
+          "pageNumber": 6,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c7f"
+      }
+    }
+  ],
+  "extractionMethod": "manual",
+  "lastUpdated": {
+    "$date": "2025-04-24T04:29:25.150Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6809be25fdbc473efae51c81"
+  },
+  "documentId": {
+    "$oid": "68085738262c713fc4fd36be"
+  },
+  "structure": [
+    {
+      "title": "第1章 3相关内容1",
+      "pageNumber": 1,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "1.1 小节内容1",
+          "pageNumber": 1,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "1.2 小节内容2",
+          "pageNumber": 1,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c82"
+      }
+    },
+    {
+      "title": "第2章 3相关内容2",
+      "pageNumber": 3,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "2.1 小节内容1",
+          "pageNumber": 3,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "2.2 小节内容2",
+          "pageNumber": 3,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c83"
+      }
+    },
+    {
+      "title": "第3章 3相关内容3",
+      "pageNumber": 5,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "3.1 小节内容1",
+          "pageNumber": 5,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.2 小节内容2",
+          "pageNumber": 5,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.3 小节内容3",
+          "pageNumber": 6,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.4 小节内容4",
+          "pageNumber": 6,
+          "position": {
+            "top": 350,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c84"
+      }
+    },
+    {
+      "title": "第4章 3相关内容4",
+      "pageNumber": 7,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "4.1 小节内容1",
+          "pageNumber": 7,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "4.2 小节内容2",
+          "pageNumber": 7,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "4.3 小节内容3",
+          "pageNumber": 8,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        },
+        {
+          "title": "4.4 小节内容4",
+          "pageNumber": 8,
+          "position": {
+            "top": 350,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c85"
+      }
+    }
+  ],
+  "extractionMethod": "manual",
+  "lastUpdated": {
+    "$date": "2025-04-24T04:29:25.161Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6809be25fdbc473efae51c87"
+  },
+  "documentId": {
+    "$oid": "6808843c262c713fc4fd36f8"
+  },
+  "structure": [
+    {
+      "title": "第1章 haha相关内容1",
+      "pageNumber": 1,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "1.1 小节内容1",
+          "pageNumber": 1,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "1.2 小节内容2",
+          "pageNumber": 1,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "1.3 小节内容3",
+          "pageNumber": 2,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c88"
+      }
+    },
+    {
+      "title": "第2章 haha相关内容2",
+      "pageNumber": 3,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "2.1 小节内容1",
+          "pageNumber": 3,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "2.2 小节内容2",
+          "pageNumber": 3,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "2.3 小节内容3",
+          "pageNumber": 4,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c89"
+      }
+    },
+    {
+      "title": "第3章 haha相关内容3",
+      "pageNumber": 5,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "3.1 小节内容1",
+          "pageNumber": 5,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "3.2 小节内容2",
+          "pageNumber": 5,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c8a"
+      }
+    },
+    {
+      "title": "第4章 haha相关内容4",
+      "pageNumber": 7,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "4.1 小节内容1",
+          "pageNumber": 7,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "4.2 小节内容2",
+          "pageNumber": 7,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c8b"
+      }
+    },
+    {
+      "title": "第5章 haha相关内容5",
+      "pageNumber": 9,
+      "position": {
+        "top": 100,
+        "left": 50
+      },
+      "children": [
+        {
+          "title": "5.1 小节内容1",
+          "pageNumber": 9,
+          "position": {
+            "top": 200,
+            "left": 50
+          }
+        },
+        {
+          "title": "5.2 小节内容2",
+          "pageNumber": 9,
+          "position": {
+            "top": 250,
+            "left": 50
+          }
+        },
+        {
+          "title": "5.3 小节内容3",
+          "pageNumber": 10,
+          "position": {
+            "top": 300,
+            "left": 50
+          }
+        },
+        {
+          "title": "5.4 小节内容4",
+          "pageNumber": 10,
+          "position": {
+            "top": 350,
+            "left": 50
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6809be25fdbc473efae51c8c"
+      }
+    }
+  ],
+  "extractionMethod": "manual",
+  "lastUpdated": {
+    "$date": "2025-04-24T04:29:25.171Z"
+  },
+  "__v": 0
+}]
