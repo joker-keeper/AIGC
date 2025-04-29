@@ -7,6 +7,7 @@ const documentRoutes = require('./routes/documentRoutes');
 const folderRoutes = require('./routes/folderRoutes');
 const documentStructureRoutes = require('./routes/documentStructureRoutes');
 const figuresRouter = require('./routes/figures');
+const overviewRoutes = require('./routes/overviewRoutes');
 
 // 连接数据库
 mongoose.connect('mongodb://localhost:27017/pdf-manager')
@@ -26,6 +27,7 @@ app.use('/api/folders', folderRoutes);
 app.use('/api/documents', documentRoutes);
 app.use('/api/documents', documentStructureRoutes);
 app.use(figuresRouter);
+app.use('/api/overview', overviewRoutes);
 
 // 添加日志中间件，记录所有请求
 app.use((req, res, next) => {

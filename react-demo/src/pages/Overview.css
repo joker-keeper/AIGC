@@ -1,0 +1,149 @@
+/* 研究领域综述样式 */
+.research-overview {
+    padding: 20px;
+}
+
+.research-header {
+    text-align: center;
+    padding: 2rem 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.research-header h1 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.research-header p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+/* 卡片样式 */
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* 列表样式 */
+.list-unstyled li {
+    padding: 0.5rem 0;
+    color: #666;
+}
+
+/* 表格样式 */
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* 研究趋势图表区域 */
+.research-trend-chart {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 学术会议卡片 */
+.card-text {
+    color: #666;
+}
+
+.card-text small {
+    color: #999;
+}
+
+/* 文献数据库样式 */
+.paper-card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.paper-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.paper-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.paper-meta .badge {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.paper-card .card-title {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.paper-card .card-text {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.paper-card .card-text strong {
+    color: #2c3e50;
+}
+
+.paper-card .btn {
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+.paper-card .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .research-header {
+        padding: 1rem;
+    }
+
+    .research-header h1 {
+        font-size: 2rem;
+    }
+
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    .paper-card {
+        margin-bottom: 1rem;
+    }
+    
+    .paper-meta {
+        flex-wrap: wrap;
+    }
+}

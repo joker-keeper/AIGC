@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import UploadPage from './pages/UploadPage';
 import UploadForm from './pages/UploadForm';
 import PDFViewer from './components/PdfViewer';
+import Overview from './pages/Overview';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/upload" element={<UploadPage />} />
         <Route path="/upload-form" element={<UploadForm />} />
         <Route path="/pdf-viewer" element={<PDFViewer />} />
+        <Route path='/overview' element={<Overview />} />
       </Routes>
     </Router>
   );
